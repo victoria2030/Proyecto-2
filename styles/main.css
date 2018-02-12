@@ -1,93 +1,196 @@
-/**/
+/*pag 1*/
 
 *{
 	margin:0;
 	padding: 0;
 }
-
-.cu1,.cu2,.cu3{
-	width: 900px;
-}
-
+.cu>article,.cu>nav,.cu>section{
+	width: 900px;}
 .cu{
-
+   display: table;
 	height:1390px ;
 	width:970px;
 	margin: 60px 80px;
-	background-color:black; 
-}
-
-.cu1{
+	background-color:black; }
+.cu>article{
 	height:  600px;
 	background-color:green;
-	margin: 10px 30px 20px 40px;
-}
-.cu2{
-
+	margin: 10px 30px 20px 40px;}
+.cu>nav{
 	height: 400px;
 	background-color:red;
-	margin: 0 10px 30px 60px;
-	
-}
-.cu3{
-
+	margin: 0 10px 30px 60px;}
+.cu>section{
 	height: 300px;
 	background-color:blue;
-	margin: 0 40px 30px 30px;
-	
-}
-
-
+	margin: 0 40px 30px 30px;}
+/*pag 2*/
 .principal>article,nav,section{
   width: 835px;
-  background-color:pink;
-
-
-}
-
+  background-color:pink;}
 .principal{
 	height: 950px;
 	width: 895px;
 	background-color:blue;
 	margin: 60px 80px;
-	display: table;
-
-}
-
+	display: table;}
 .principal>article{
 	height:260px;
 	margin: 30px 20px 15px 40px;
-	display: table;
-}
-
+	display: table;}
 .principal>article>nav{
 	height: 100px;
 	width: 800px;
-	background-color:red;
-}
+	background-color:red;}
 .pep{
-  margin:30px 15px 20px 20px;
-}
+  margin:30px 15px 20px 20px;}
 .pe{
-	margin: 0 15px 10px 20px;
-}
+	margin: 0 15px 10px 20px;}
 .principal>nav{
 	display: table;
 	margin: 0 30px 20px 30px;
-	height: 350px;
-}
+	height: 350px;}
 .principal>nav>article{
 	display: table;
 	margin: 30px 25px 20px 10px;
 	height: 300px;
     width: 800px;
-    background-color:red;
-      }
+    background-color:red;}
 .principal>section{
 	display: table;
-	margin: 0 30px 20px 30px;
-	height: 350px;
-}
-
-
-
+	margin: 0 15px 25px 25px;
+	height: 350px;}
+/*pag 3*/
+.pr1{
+	margin: 40px 30px;
+	height: 830px;
+	width: 980px;
+	background-color:blue;
+	display: table;}
+.pr1>article>section>nav>pre{
+	background-color:red;
+	margin: 20px 20px 10px 20px;
+	height: 100px;
+	width: 820px;
+	display: table;}
+.pag{
+	margin: 10px 40px 30px 40px;
+	height: 300px;
+	width:900px;
+	background-color:pink }
+.pa{
+	display: table;
+	margin: 0px 50px 40px 30px;
+	height: 240px;
+	width:900px;
+	background-color:pink }
+.pa>section{
+	height: 100px;
+	width: 850px;
+	background-color:green; }
+.ap{
+	display: table;
+margin: 10px 15px 20px 15px;}
+.app{
+margin: 0 15px 10px 15px;}
+.tres{
+	display: table;
+	margin:0px 60px 10px 20px; 
+	width:900px;
+	height:200px;
+	background-color:pink;}
+.tres>section{
+	display: table;
+	margin:30px 10px 30px 30px; 
+	width:860;
+	height:140;
+	background-color:green;	}
+.tres>section>nav{
+	display: table;
+	margin:10px 20px 20px 20px; 
+	width:820;
+	height:100;
+	background-color:orange;}
+/*pag 4*/
+.op{
+margin: 40px 40px;
+height: 1200px;
+width: 1000px;
+display: table;
+background-color:orange; }
+.op>article{
+margin: 20px 20px;
+height: 1160px;
+width: 960px;
+display: table;
+background-color:purple; }
+.op>article>section{
+margin: 30px 30px;
+height: 1100px;
+width: 900px;
+display: table;
+background-color:blue; }
+.op>article>section>div{
+height: 520px;
+width: 880px;
+display: table;
+background-color:yellow; }
+.ta{
+ margin: 20px 10px 20px 10px;}
+.te{
+margin: 0 10px 20px 10px;}
+.ta>pre{
+margin: 10px 20px;
+height: 500px;
+width: 840px;
+display: table;
+background-color:red; }
+.ta>pre>dt{
+margin: 20px 30px;
+height: 460px;
+width: 780px;
+display: table;
+background-color:black; }
+.te>pre{
+margin: 10px 20px;
+height: 500px;
+width: 840px;
+display: table;
+background-color:red; }
+.te>pre>dt{
+margin: 20px 30px;
+height: 460px;
+width: 780px;
+display: table;
+background-color:black; }
+/*pag 5*/
+.to{
+margin: 70px 60px;
+height: 1280px;
+width: 900px;
+display: table;
+background-color:orange; }
+.pre{
+margin: 20px 60px 40px 40px;
+height: 1200px;
+width: 800px;
+display: table;
+background-color:green; }
+.al{
+margin: 40px 100px 60px 100px;
+height: 200px;
+width: 700px;
+display: table;
+background-color:green; }
+.up,.pra,.t,.s{
+height:300px; 
+width:760px;
+background-color:pink;  }
+.up{
+	margin: 20px 30px 30px 30px;}
+.pra{
+	margin: 0 20px 15px 40px;}
+.t{
+	margin:0 40px 15px 20px;}
+.s{
+	margin:0 45px 20px 15px; }
